@@ -55,7 +55,10 @@ Manfaat dari proyek ini adalah membantu proses identifikasi penyakit tanaman sec
 
 ## Sumber Dataset
 
-Dataset diperoleh dari Kaggle dengan nama **Plant Disease Classification Dataset**.
+Dataset diperoleh dari Kaggle dengan nama **Plant Disease Classification Dataset**. yang diperoleh dari Kaggle.
+
+Link Dataset:
+https://www.kaggle.com/datasets/turakut/plant-disease-classification?utm_source=chatgpt.com
 
 ## Deskripsi Dataset
 
@@ -237,18 +240,21 @@ Untuk penelitian selanjutnya disarankan menggunakan dataset yang lebih besar ata
 # 10. Lampiran
 
 ## Link Dataset
-
-(Tuliskan link Kaggle)
+https://www.kaggle.com/datasets/turakut/plant-disease-classification?utm_source=chatgpt.com
 
 ## Link Repository GitHub
-
-(Tuliskan link GitHub)
+https://www.kaggle.com/datasets/turakut/plant-disease-classification?utm_source=chatgpt.com
 
 ## Lampiran Gambar
 
 - Histogram
+  <img width="839" height="682" alt="image" src="https://github.com/user-attachments/assets/707c41b4-9356-49a6-917d-379cec5455a7" />
+
 - Heatmap
+  <img width="588" height="532" alt="image" src="https://github.com/user-attachments/assets/b0882d0b-6712-4ce6-a70f-38f28f18a12a" />
+
 - Distribusi Target
+  
 - Confusion Matrix Decision Tree
 - Confusion Matrix KNN
 - Grafik Perbandingan Akurasi
