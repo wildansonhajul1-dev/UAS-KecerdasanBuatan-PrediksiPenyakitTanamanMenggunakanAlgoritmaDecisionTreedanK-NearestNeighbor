@@ -94,9 +94,11 @@ Dataset diperiksa menggunakan fungsi:
 
 Hasil pemeriksaan menunjukkan bahwa dataset tidak memiliki missing value sehingga dapat langsung digunakan untuk proses pelatihan model.
 
-📷 **MASUKKAN FOTO OUTPUT `df.info()` DI SINI**
+<img width="373" height="210" alt="image" src="https://github.com/user-attachments/assets/8bc02ac6-3d91-436d-9a63-8ed620345446" />
 
-📷 **MASUKKAN FOTO OUTPUT `df.describe()` DI SINI**
+
+<img width="552" height="262" alt="image" src="https://github.com/user-attachments/assets/105ed72f-6440-4576-a7e0-f93d36386b4c" />
+
 
 ---
 
@@ -108,7 +110,8 @@ Tahap Exploratory Data Analysis dilakukan untuk memahami karakteristik data sebe
 
 Histogram digunakan untuk melihat distribusi setiap fitur pada dataset.
 
-📷 **MASUKKAN FOTO HISTOGRAM DI SINI**
+<img width="698" height="543" alt="image" src="https://github.com/user-attachments/assets/80ab3764-db50-43db-a504-f7e76e8a0c33" />
+
 
 Berdasarkan histogram terlihat bahwa distribusi data cukup beragam pada masing-masing fitur.
 
@@ -118,7 +121,8 @@ Berdasarkan histogram terlihat bahwa distribusi data cukup beragam pada masing-m
 
 Heatmap digunakan untuk melihat hubungan antar fitur.
 
-📷 **MASUKKAN FOTO HEATMAP DI SINI**
+<img width="499" height="425" alt="image" src="https://github.com/user-attachments/assets/f63c4e78-5e84-44d6-a2c1-6677a645909f" />
+
 
 Berdasarkan heatmap terlihat bahwa korelasi antar fitur tidak terlalu tinggi sehingga seluruh fitur tetap digunakan.
 
@@ -128,7 +132,8 @@ Berdasarkan heatmap terlihat bahwa korelasi antar fitur tidak terlalu tinggi seh
 
 Distribusi target digunakan untuk mengetahui keseimbangan jumlah data pada setiap kelas.
 
-📷 **MASUKKAN FOTO BAR CHART / COUNTPLOT DI SINI**
+<img width="455" height="313" alt="image" src="https://github.com/user-attachments/assets/03d5fabf-ee86-41e9-8ae1-8ecde7d306de" />
+
 
 Berdasarkan visualisasi tersebut jumlah data antar kelas relatif seimbang sehingga model tidak mengalami masalah class imbalance.
 
@@ -152,7 +157,6 @@ Tahapan Data Preparation meliputi:
 
 Normalisasi dilakukan agar seluruh fitur memiliki skala yang sama sehingga meningkatkan performa algoritma machine learning.
 
-📷 **MASUKKAN FOTO OUTPUT SPLIT DATA DI SINI (jika ada)**
 
 ---
 
@@ -166,11 +170,13 @@ Decision Tree merupakan algoritma klasifikasi yang bekerja dengan membentuk poho
 
 ### Hasil
 
-Accuracy : **(Isi sesuai output Colab)**
+Accuracy Decision Tree: 0.772
 
-📷 **MASUKKAN FOTO CONFUSION MATRIX DECISION TREE DI SINI**
+<img width="413" height="358" alt="image" src="https://github.com/user-attachments/assets/dca41bcc-94b7-4a7d-9d00-5b280e43d676" />
 
-📷 **MASUKKAN FOTO CLASSIFICATION REPORT DECISION TREE DI SINI**
+
+<img width="359" height="146" alt="image" src="https://github.com/user-attachments/assets/c98305ac-7971-4ec5-b2d3-b163cf6d718f" />
+
 
 ---
 
@@ -180,11 +186,13 @@ KNN merupakan algoritma klasifikasi yang menentukan kelas berdasarkan kedekatan 
 
 ### Hasil
 
-Accuracy : **(Isi sesuai output Colab)**
+Accuracy KNN: 0.8325
 
-📷 **MASUKKAN FOTO CONFUSION MATRIX KNN DI SINI**
+<img width="427" height="360" alt="image" src="https://github.com/user-attachments/assets/cdb561a0-09cb-4f65-9d34-bf00590b0028" />
 
-📷 **MASUKKAN FOTO CLASSIFICATION REPORT KNN DI SINI**
+
+<img width="366" height="144" alt="image" src="https://github.com/user-attachments/assets/57d4824b-8f43-49a8-9e6b-02f730c25d90" />
+
 
 ---
 
@@ -205,7 +213,8 @@ Evaluasi dilakukan menggunakan metrik:
 |Decision Tree|...(isi dari output)...|
 |KNN|...(isi dari output)...|
 
-📷 **MASUKKAN FOTO GRAFIK PERBANDINGAN AKURASI DI SINI**
+<img width="451" height="347" alt="image" src="https://github.com/user-attachments/assets/8af142f3-1efc-4c84-aced-bc240d03bcac" />
+
 
 ### Analisis
 
