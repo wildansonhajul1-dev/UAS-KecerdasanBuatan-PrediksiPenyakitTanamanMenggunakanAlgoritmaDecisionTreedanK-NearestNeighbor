@@ -16,9 +16,9 @@ Proyek ini dibuat sebagai tugas UAS mata kuliah Kecerdasan Buatan. Tujuan dari p
 
 ## Dataset
 
-- Nama Dataset : PlantVillage Dataset
-- Sumber : Kaggle
-- Link : https://www.kaggle.com/datasets/emmarex/plantdisease
+- Nama Dataset : Plant Disease Classification
+- Sumber : Kaggle 
+- Link : [https://www.kaggle.com/datasets/emmarex/plantdisease](https://www.kaggle.com/datasets/turakut/plant-disease-classification?utm_source=chatgpt.com)
 
 ## Algoritma yang Digunakan
 
@@ -35,6 +35,8 @@ Proyek ini dibuat sebagai tugas UAS mata kuliah Kecerdasan Buatan. Tujuan dari p
 6. Membandingkan hasil kedua model.
 7. Melakukan evaluasi menggunakan Accuracy, Precision, Recall, F1-Score, dan Confusion Matrix.
 8. Menarik kesimpulan berdasarkan hasil pengujian.
+9. Referensi
+10. Lampiran
 
 ## Struktur Repository
 
