@@ -1,13 +1,10 @@
 # LAPORAN UAS KECERDASAN BUATAN
 
-## Nama
-Wildan Sonhajul M
+## Prediksi Penyakit Tanaman Menggunakan Algoritma Decision Tree dan K-Nearest Neighbor
 
-## NIM
-2406019
-
-## Kelas
-Informatika A
+**Nama** : Wildan Sonhajul M  
+**NIM** : 2406019  
+**Kelas** : Informatika A
 
 ---
 
@@ -15,11 +12,12 @@ Informatika A
 
 ## Prediksi Penyakit Tanaman Menggunakan Algoritma Decision Tree dan K-Nearest Neighbor
 
+### Nama Kelompok
+Wildan Sonhajul M
+
 ### Domain Proyek
 
-Penyakit pada tanaman merupakan salah satu penyebab utama menurunnya hasil panen. Apabila penyakit tidak terdeteksi sejak dini, penyebarannya dapat menyebabkan penurunan kualitas maupun kuantitas hasil pertanian. Oleh karena itu, pemanfaatan teknologi kecerdasan buatan dan machine learning dapat membantu proses identifikasi penyakit tanaman secara lebih cepat dan akurat. :contentReference[oaicite:0]{index=0}
-
-Pada proyek ini digunakan algoritma Decision Tree dan K-Nearest Neighbor (KNN) untuk melakukan klasifikasi penyakit tanaman berdasarkan data yang tersedia. Hasil penelitian diharapkan dapat membantu proses pengambilan keputusan dalam mendeteksi penyakit tanaman secara lebih cepat.
+(Tuliskan latar belakang yang sudah kita buat.)
 
 ---
 
@@ -27,176 +25,262 @@ Pada proyek ini digunakan algoritma Decision Tree dan K-Nearest Neighbor (KNN) u
 
 ## Permasalahan
 
-Petani sering mengalami kesulitan dalam mendeteksi penyakit tanaman secara cepat. Akibatnya, proses penanganan sering terlambat sehingga menyebabkan penurunan hasil panen.
+(Tuliskan masalah yang ingin diselesaikan.)
 
-Beberapa penelitian menunjukkan bahwa algoritma klasifikasi seperti Decision Tree dan K-Nearest Neighbor mampu memberikan hasil yang baik dalam proses identifikasi penyakit tanaman sehingga kedua algoritma tersebut dipilih pada penelitian ini. :contentReference[oaicite:1]{index=1}
+## Literatur Review
 
-## Tujuan
+(Sitasi 2–3 jurnal yang sudah kita kumpulkan.)
 
-Tujuan dari proyek ini adalah:
+## Tujuan Proyek
 
-- Membangun model klasifikasi penyakit tanaman.
-- Membandingkan performa Decision Tree dan KNN.
-- Menentukan algoritma dengan hasil terbaik.
+- ...
+- ...
+- ...
 
-## Pengguna
+## Pengguna Sistem
 
 - Petani
-- Penyuluh Pertanian
 - Peneliti
 - Mahasiswa
 
-## Manfaat
+## Solusi dan Manfaat AI
 
-- Membantu mendeteksi penyakit tanaman lebih cepat.
-- Mengurangi risiko gagal panen.
-- Menjadi referensi penelitian selanjutnya.
+(Tuliskan manfaat penggunaan Decision Tree dan KNN.)
 
 ---
 
 # 3. Data Understanding
 
-Dataset yang digunakan berasal dari Kaggle dengan nama **Plant Disease Classification Dataset**.
+## Sumber Data
 
-Dataset memiliki:
+Plant Disease Classification Dataset (Kaggle)
 
-- Jumlah data : 10.000
-- Jumlah fitur : 4
-- Target : disease_present
+## Deskripsi Dataset
 
-### Atribut Dataset
+- Jumlah Data
+- Jumlah Fitur
+- Target
 
-|No|Atribut|Keterangan|
+## Deskripsi Setiap Fitur
+
+|No|Fitur|Keterangan|
 |---|---|---|
 |1|temperature|Suhu|
 |2|humidity|Kelembapan|
-|3|rainfall|Curah Hujan|
-|4|soil_pH|pH Tanah|
-|5|disease_present|Label penyakit|
+|3|rainfall|Curah hujan|
+|4|soil_pH|pH tanah|
+|5|disease_present|Target|
 
-Berdasarkan hasil pengecekan menggunakan `df.info()` dan `df.isnull().sum()`, dataset tidak memiliki missing value sehingga dapat langsung digunakan pada proses pelatihan model.
+## Ukuran dan Format Data
 
-Dataset ini sesuai digunakan untuk klasifikasi penyakit tanaman menggunakan algoritma machine learning. :contentReference[oaicite:2]{index=2}
+CSV
+
+## Tipe Data
+
+float64 dan int64
+
+## Target Klasifikasi
+
+disease_present
 
 ---
 
 # 4. Exploratory Data Analysis (EDA)
 
-Pada tahap ini dilakukan analisis awal terhadap dataset.
+## 4.1 Statistik Deskriptif
 
-Analisis meliputi:
+(tempel output df.describe())
 
-- Histogram
-- Heatmap Korelasi
-- Distribusi Kelas
-- Statistik Deskriptif
+## 4.2 Distribusi Data
 
-### Hasil Analisis
+(tempel gambar Histogram)
 
-Berdasarkan visualisasi histogram diketahui bahwa setiap atribut memiliki distribusi data yang cukup baik.
+## 4.3 Korelasi Antar Fitur
 
-Heatmap menunjukkan hubungan antar atribut terhadap target klasifikasi.
+(tempel Heatmap)
 
-Distribusi kelas memperlihatkan jumlah data penyakit dan tidak penyakit cukup seimbang sehingga model dapat dilatih dengan baik.
+## 4.4 Distribusi Target
 
-> Tambahkan screenshot:
->
-> - Histogram
-> - Heatmap
-> - Countplot
+(tempel Countplot/Bar Chart)
+
+## 4.5 Insight
+
+(Tuliskan kesimpulan hasil EDA.)
 
 ---
 
 # 5. Data Preparation
 
-Tahapan persiapan data dilakukan sebagai berikut.
+## Pembersihan Data
 
-- Memisahkan fitur dan target.
-- Membagi data training dan testing dengan rasio 80:20.
-- Melakukan normalisasi menggunakan StandardScaler.
+- Tidak ada missing value
+- Tidak ada data duplikat
 
-Normalisasi dilakukan agar seluruh atribut memiliki skala yang sama sehingga proses klasifikasi menjadi lebih optimal.
+## Encoding
+
+Tidak diperlukan.
+
+## Normalisasi
+
+Menggunakan StandardScaler.
+
+## Split Data
+
+Training 80%
+
+Testing 20%
 
 ---
 
 # 6. Modeling
 
-Penelitian ini menggunakan dua algoritma.
+## Algoritma 1
 
-## Decision Tree
+### Decision Tree
 
-Decision Tree merupakan algoritma klasifikasi yang membentuk pohon keputusan berdasarkan atribut yang paling berpengaruh terhadap target. Algoritma ini mudah dipahami dan banyak digunakan dalam klasifikasi data pertanian. :contentReference[oaicite:3]{index=3}
+### Alasan Pemilihan
 
-**Hasil Akurasi:** *(isi sesuai output notebook, misalnya 75,30%)*
+(Tuliskan alasan.)
+
+### Implementasi
+
+(tempel kode atau screenshot kode)
+
+### Hasil
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Confusion Matrix
+
+(tempel gambar)
 
 ---
 
-## K-Nearest Neighbor (KNN)
+## Algoritma 2
 
-KNN melakukan klasifikasi berdasarkan kedekatan jarak antar data menggunakan sejumlah tetangga terdekat. Metode ini sering digunakan sebagai pembanding dalam penelitian klasifikasi penyakit tanaman. :contentReference[oaicite:4]{index=4}
+### K-Nearest Neighbor
 
-**Hasil Akurasi:** *(isi sesuai output notebook)*
+### Alasan Pemilihan
+
+(Tuliskan alasan.)
+
+### Implementasi
+
+(tempel kode)
+
+### Hasil
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Confusion Matrix
+
+(tempel gambar)
+
+---
+
+## Perbandingan Model
+
+|Algoritma|Accuracy|Precision|Recall|F1|
+|---|---|---|---|---|
+|Decision Tree|||||
+|KNN|||||
 
 ---
 
 # 7. Evaluation
 
-Evaluasi model dilakukan menggunakan:
+## Confusion Matrix
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+(tempel kedua gambar)
 
-Berdasarkan hasil pengujian, kedua algoritma mampu melakukan klasifikasi penyakit tanaman dengan baik. Perbedaan nilai akurasi dipengaruhi oleh karakteristik data dan parameter model yang digunakan. :contentReference[oaicite:5]{index=5}
+## Accuracy
 
-### Hasil Perbandingan
+(Tuliskan hasil)
 
-|Algoritma|Accuracy|
-|---|---:|
-|Decision Tree|75.xx %|
-|KNN|xx.xx %|
+## Precision
 
-> Tambahkan screenshot:
->
-> - Confusion Matrix Decision Tree
-> - Confusion Matrix KNN
-> - Grafik Perbandingan Akurasi
+(Tuliskan hasil)
+
+## Recall
+
+(Tuliskan hasil)
+
+## F1 Score
+
+(Tuliskan hasil)
+
+## Model Terbaik
+
+(Jelaskan kenapa.)
 
 ---
 
-# 8. Kesimpulan
+# 8. Kesimpulan dan Rekomendasi
 
-Berdasarkan hasil penelitian, algoritma Decision Tree dan K-Nearest Neighbor berhasil diterapkan untuk melakukan klasifikasi penyakit tanaman. Kedua algoritma menunjukkan performa yang cukup baik, namun salah satu algoritma memperoleh nilai akurasi lebih tinggi sehingga lebih direkomendasikan untuk digunakan pada dataset ini.
+## Ringkasan
 
-Pengembangan selanjutnya dapat dilakukan dengan menggunakan dataset yang lebih besar atau membandingkan dengan algoritma lain seperti Random Forest, Support Vector Machine (SVM), maupun Deep Learning agar diperoleh hasil klasifikasi yang lebih optimal. :contentReference[oaicite:6]{index=6}
+(Tuliskan hasil penelitian.)
+
+## Apakah Tujuan Tercapai?
+
+Ya.
+
+## Kelebihan
+
+- ...
+- ...
+- ...
+
+## Kekurangan
+
+- Dataset sederhana
+- Fitur masih sedikit
+
+## Rekomendasi
+
+- Menggunakan dataset lebih besar.
+- Menambahkan algoritma Random Forest.
+- Menggunakan CNN jika memakai citra asli.
 
 ---
 
 # 9. Referensi
 
-1. Purnamawati, A., Nugroho, W. F., Putri, D., & Hidayat, W. F. (2020). *Deteksi Penyakit Daun pada Tanaman Padi Menggunakan Algoritma Decision Tree, Random Forest, Naïve Bayes, SVM dan KNN*. InfoTekJar: Jurnal Nasional Informatika dan Teknologi Jaringan, 5(1). https://doi.org/10.30743/infotekjar.v5i1.2934
-
-2. Demilie. (2024). *Plant disease detection and classification using machine learning and deep learning techniques: A review*. Journal of Big Data, 11(5). https://doi.org/10.1186/s40537-023-00863-9
-
-3. Astagina, A. U., Juniar, E., Mutmainah, S., & Lorosae, T. A. (2025). *Klasifikasi Hama dan Penyakit Tanaman Padi Menggunakan Algoritma Decision Tree*. Scientific: Journal of Computer Science and Informatics, 2(2). https://doi.org/10.34304/scientific.v2.i2.376
-
-4. *Classification and Identification of Pest Diseases and Crop Monitoring Using Artificial Intelligence*. (2025). Information Processing in Agriculture.
-
-5. Shafik, W., Tufail, A., Liyanage, C. D. S., & Apong, R. A. A. H. M. (2024). *Plant disease detection and classification using deep learning techniques*. BMC Plant Biology, 24, 136.
+(Isi 5 jurnal yang sudah kita susun.)
 
 ---
 
 # 10. Lampiran
 
-Lampiran terdiri dari:
+## Dataset
 
-- Source Code Google Colab
-- Dataset
-- Hasil Histogram
+Link Kaggle
+
+## Notebook Google Colab
+
+Link Colab
+
+## Repository GitHub
+
+Link GitHub
+
+## Gambar Tambahan
+
+- Histogram
 - Heatmap
+- Countplot
 - Confusion Matrix Decision Tree
 - Confusion Matrix KNN
 - Grafik Perbandingan Akurasi
-- Link Repository GitHub
