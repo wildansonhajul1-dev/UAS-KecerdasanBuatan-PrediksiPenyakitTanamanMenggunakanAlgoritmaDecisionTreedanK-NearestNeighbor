@@ -254,7 +254,14 @@ https://www.kaggle.com/datasets/turakut/plant-disease-classification?utm_source=
   <img width="588" height="532" alt="image" src="https://github.com/user-attachments/assets/b0882d0b-6712-4ce6-a70f-38f28f18a12a" />
 
 - Distribusi Target
-  
+  <img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/198ad701-3888-424e-bec5-00fc6669f108" />
+
 - Confusion Matrix Decision Tree
+  <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/d7a9a5d8-31c3-446e-b839-14196dce1dc6" />
+
 - Confusion Matrix KNN
+  <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/40a706f1-7bab-457e-8cf6-6e3a51e5ef8f" />
+
 - Grafik Perbandingan Akurasi
+  <img width="567" height="435" alt="image" src="https://github.com/user-attachments/assets/16d15298-3cd3-46cb-a1cd-7b0af59ecd63" />
+
