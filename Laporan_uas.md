@@ -210,8 +210,8 @@ Evaluasi dilakukan menggunakan metrik:
 
 |Algoritma|Accuracy|
 |---|---:|
-|Decision Tree|...(isi dari output)...|
-|KNN|...(isi dari output)...|
+|Decision Tree|0.772|
+|KNN|0.8325|
 
 <img width="451" height="347" alt="image" src="https://github.com/user-attachments/assets/8af142f3-1efc-4c84-aced-bc240d03bcac" />
 
