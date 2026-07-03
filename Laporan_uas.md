@@ -234,13 +234,13 @@ Untuk penelitian selanjutnya disarankan menggunakan dataset yang lebih besar ata
 
 # 9. Referensi
 
-1. Purnamawati, A., Nugroho, W. F., Putri, D., & Hidayat, W. F. (2020). *Deteksi Penyakit Daun pada Tanaman Padi Menggunakan Algoritma Decision Tree, Random Forest, Naïve Bayes, SVM dan KNN*. InfoTekJar: Jurnal Nasional Informatika dan Teknologi Jaringan, 5(1). https://doi.org/10.30743/infotekjar.v5i1.2934
+1. Purnamawati, A., Nugroho, W. F., Putri, D., & Hidayat, W. F. (2020). *Deteksi Penyakit Daun pada Tanaman Padi Menggunakan Algoritma Decision Tree, Random Forest, Naïve Bayes, SVM dan KNN*. InfoTekJar: Jurnal Nasional Informatika dan Teknologi Jaringan, 5(1). [https://doi.org/10.30743/infotekjar.v5i1.2934](https://jurnal.uisu.ac.id/index.php/infotekjar/article/view/2934/pdf?utm_source=chatgpt.com)
 
-2. Demilie. (2024). *Plant disease detection and classification using machine learning and deep learning techniques: A review*. Journal of Big Data, 11(5). https://doi.org/10.1186/s40537-023-00863-9
+2. Demilie. (2024). *Plant disease detection and classification using machine learning and deep learning techniques: A review*. Journal of Big Data, 11(5). [https://doi.org/10.1186/s40537-023-00863-9](https://link.springer.com/article/10.1186/s40537-023-00863-9?utm_source=chatgpt.com)
 
-3. Astagina, A. U., Juniar, E., Mutmainah, S., & Lorosae, T. A. (2025). *Klasifikasi Hama dan Penyakit Tanaman Padi Menggunakan Algoritma Decision Tree*. Scientific: Journal of Computer Science and Informatics, 2(2).
+3. Astagina, A. U., Juniar, E., Mutmainah, S., & Lorosae, T. A. (2025). *Klasifikasi Hama dan Penyakit Tanaman Padi Menggunakan Algoritma Decision Tree*. Scientific: Journal of Computer Science and Informatics, 2(2). https://ejurnal.umbima.ac.id/index.php/scientific/article/view/376?utm_source=chatgpt.com
 
-4. *Classification and Identification of Pest Diseases and Crop Monitoring Using Artificial Intelligence*. (2025). Information Processing in Agriculture.
+4. *Classification and Identification of Pest Diseases and Crop Monitoring Using Artificial Intelligence*. (2025). Information Processing in Agriculture. https://www.sciencedirect.com/science/article/pii/S2214317324000647?utm_source=chatgpt.com&__cf_chl_f_tk=KzMv1TyE_j1LursZayucrUg9DHxQi1KG08tc_u0.J9s-1783108525-1.0.1.1-Z40BbCPPqZt25U3efD8OmBPI.xTVF8JblneNkcZfv7E
 
 5. Shafik, W., Tufail, A., Liyanage, C. D. S., & Apong, R. A. A. H. M. (2024). *Plant disease detection and classification using deep learning techniques*. BMC Plant Biology, 24, 136.
 
