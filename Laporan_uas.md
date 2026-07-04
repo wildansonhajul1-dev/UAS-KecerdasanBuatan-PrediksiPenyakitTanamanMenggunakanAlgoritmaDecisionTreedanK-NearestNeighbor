@@ -5,8 +5,10 @@
 ### Disusun Oleh
 
 **Nama** : Wildan Sonhajul M
-
 **NIM** : 2406019
+**Nama** : Rise Kartika
+**NIM**  : 2406009
+
 
 **Kelas** : Informatika A
 
